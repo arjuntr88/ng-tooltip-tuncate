@@ -1,0 +1,23 @@
+{
+  "name": "ng-truncate-tooltip",
+  "description": "An angular directive that adds a tooltip to text only when the text is truncated",
+  "main": [
+    "dist/truncate-tooltip.js"
+  ],
+  "dependencies": {
+    "angular": ">= 1.0.5"
+  },
+  "keywords": [
+    "angular",
+    "tooltip",
+    "truncate",
+    "ellipsis"
+  ],
+  "authors": [
+    "Arjun TR <arjun200034@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ]
+}
