@@ -31,8 +31,9 @@ angular.module("myApp", ["ngTruncateTooltip"] ...
 ```
 
 To add custom triggers for the tooltip you can use `$truncateTooltipConfigProvider`
-```javascript
-angular.module('myModule', [ngTruncateTooltip']).config(['$truncateTooltipConfigProvider', function($truncateTooltipConfigProvider){
+```
+angular.module('myModule', [ngTruncateTooltip'])
+	.config(['$truncateTooltipConfigProvider', function($truncateTooltipConfigProvider){
         $truncateTooltipConfigProvider.setTriggers({
             'show': 'hide',
         });
