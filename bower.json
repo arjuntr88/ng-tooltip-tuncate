@@ -20,5 +20,6 @@
   "license": "MIT",
   "ignore": [
     "**/.*"
-  ]
+  ],
+  "version": "0.0.1"
 }
