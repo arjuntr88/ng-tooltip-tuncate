@@ -19,6 +19,11 @@ Install this using bower:
 ```
 bower install ng-truncate-tooltip
 ```
+and include in the html
+```html
+<script type="text/javascript", scr="bower_components/ng-truncate-tooltip/dist/truncate-tooltip.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+```
 
 Or directly download and add it to your html:
 ```html
