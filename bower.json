@@ -5,7 +5,9 @@
     "dist/truncate-tooltip.js"
   ],
   "dependencies": {
-    "angular": ">= 1.0.5"
+    "angular": ">= 1.3",
+    "angular-bootstrap" : ">= 0.14.0",
+    "bootstrap"
   },
   "keywords": [
     "angular",
