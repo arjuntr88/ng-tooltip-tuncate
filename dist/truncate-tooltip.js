@@ -22,7 +22,7 @@ angular.module("ngTruncateTooltip", ["ui.bootstrap"])
             };
         };
         this.setTriggers = function(triggers){
-            this.triggers.merge(triggers);
+            angular.merge(this.triggers, this.triggers, triggers);
         };
     })
     .directive("truncateTooltip", ["$compile", "$timeout", "truncateTooltipConfig",  function($compile, $timeout, truncateTooltipConfig){
