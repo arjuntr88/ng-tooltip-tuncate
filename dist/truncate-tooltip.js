@@ -37,6 +37,8 @@ angular.module("ngTruncateTooltip", ["ui.bootstrap"])
 
                 elem.attr("tooltip-trigger", "'show'");
                 elem.removeAttr("truncate-tooltip");
+                var elemToCompile = elem.outerHTML;
+                elem.replaceWith(elemToCompile);
                 $compile(elem)(scope);
                 scope.tooltipOn = false;
                 var trigger = elem.attr("truncate-tooltip-trigger") ? elem.attr("truncate-tooltip-trigger") : "mouseenter";
